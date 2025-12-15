@@ -25,7 +25,7 @@ function Navbar() {
       <NavbarContainer className="navbar navbar-expand-lg navbar-dark fixed-top">
         <div className="container-fluid">
           <a href="/" className="navbar-brand">
-            <img src="/logo.svg" alt="Logo" height={50} />
+            <img src='/logo.svg' alt="Logo" height={50} />
           </a>   
           
           <button 
