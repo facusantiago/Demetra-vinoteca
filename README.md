@@ -1,3 +1,3 @@
 # Demetra
 
-E-commerce dedicado a venta de vinos
+Ecommerce dedicado a venta de vinos
