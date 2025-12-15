@@ -4,14 +4,16 @@ function Inicio() {
   return (
     <>
     <div style={{textAlign: 'center'}}>
-    <h1>Bienvenidos a nuestra tienda online</h1>
-    <hr />
+    <img src='/logo-01.svg' height={320}></img>
+        <hr />
+    
+    <h2>Encontrá los mejores <strong>vinos</strong> para compartir</h2>
     <main>
-      <p>Encontrá los mejores vinos para degustar en tus encuentros.</p>
     </main>
 
-    <br />
     
+    <hr />
+ 
     </div>
     </>
   )

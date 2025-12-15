@@ -1,8 +1,7 @@
 /* ===== NAVBAR ===== */
 nav {
-  background-color:black;
-  color:white;
-  padding: 0.1rem 2rem;
+  background-color:#000000;
+  padding: 1rem 2rem;
   box-shadow: 0px 0px 2px 1px black;
 }
 
@@ -10,13 +9,10 @@ nav ul {
   list-style: none;
   display: flex;
   gap: 2rem;
-  align-items: center;
 }
 
 nav li {
   display: inline-block;
-  padding-right: 20px; /* Espacio antes del separador */
-  position: relative;
 }
 
 nav a {
@@ -62,8 +58,42 @@ main {
   padding-left: 15%;
 }
 
-/* logo */
+/* Botones ADMIN en Componente Productos - Con Shadow Negro */
+.btn-editar, .btn-eliminar {
+  padding: 8px 16px;
+  margin: 5px;
+  border: 2px solid;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
 
-.logo {
-  width: 200px;
+/* BOTÓN EDITAR - Verde */
+.btn-editar {
+  background: #2E7D32;
+  color: white;
+  border-color: #2E7D32;
+}
+
+.btn-editar:hover {
+  background: #2E7D32;
+  color: white;
+  box-shadow: 5 0 6px rgba(0, 0, 0, 0.2); /* Shadow negro con blur */
+  transform: translateY(-1px);
+}
+
+/* BOTÓN ELIMINAR - Rojo */
+.btn-eliminar {
+  background: #C62828;
+  color: white;
+  border-color: #C62828;
+}
+
+.btn-eliminar:hover {
+  background: #C62828;
+  color: white;
+  box-shadow: 5 0 6px rgba(0, 0, 0, 0.2); /* Shadow negro con blur */
+  transform: translateY(-1px);
 }
